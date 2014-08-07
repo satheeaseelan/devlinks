@@ -1,6 +1,6 @@
-var app = angular.module("neo", []);
+var app = angular.module("dev", []);
 
-function Neobanker($scope){
+function devlinks($scope){
 	$scope.getClass = function getClass(idx) {
 	  
 		return {special:0}
