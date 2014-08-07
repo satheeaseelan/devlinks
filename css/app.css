@@ -1,0 +1,146 @@
+body {
+  min-height: 1000px;
+  padding-top: 70px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-default{ background-color:#f7f4fa;-webkit-box-shadow: 0px 3px 3px 0px rgba(196, 196, 196, 0.75);
+-moz-box-shadow:    0px 3px 3px 0px rgba(196, 196, 196, 0.75);
+box-shadow:         0px 3px 3px 0px rgba(196, 196, 196, 0.75);}
+.navbar, .navbar-brand{ min-height:70px;}
+.navbar-brand{ padding-top:20px;}
+.navbar-header{ width:auto; padding:0; margin:0;}
+/* Search icon by IcoMoon, made with http://icomoon.io/app/ */
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon/icomoon.eot');
+	src:url('../fonts/icomoon/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon/icomoon.woff') format('woff'),
+		url('../fonts/icomoon/icomoon.ttf') format('truetype'),
+		url('../fonts/icomoon/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.sb-search {
+	position: relative;
+	margin-top: 20px;
+	width: 0%;
+	min-width: 30px;
+	height: 30px;
+	float: right;
+	overflow: hidden;
+	-webkit-transition: width 0.3s;
+	-moz-transition: width 0.3s;
+	transition: width 0.3s;
+	-webkit-backface-visibility: hidden;
+	background:none;
+}
+
+.sb-search-input {
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: none;
+	outline: none;
+	width: 100%;
+	height: 30px;
+	margin: 0;
+	z-index: 10;
+	padding: 10px 15px;
+	font-family: inherit;
+	font-size: 12px;
+	background:none;
+	color: #333;
+}
+
+
+
+.sb-icon-search,
+.sb-search-submit  {
+	width: 30px;
+	height: 30px;
+	display: block;
+	background:none;
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 0;
+	margin: 0;
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.sb-search-submit {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
+    filter: alpha(opacity=0); /* IE 5-7 */
+    opacity: 0;
+	color: transparent;
+	border: none;
+	outline: none;
+	z-index: -1;
+}
+
+.sb-icon-search {
+	color: #333;
+
+	z-index: 90;
+	font-size: 22px;
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+	background:none;
+}
+
+.sb-icon-search:before {
+	content: "\e000";
+}
+
+/* Open state */
+.sb-search.sb-search-open,
+.no-js .sb-search {
+	width: 100%;
+}
+
+.sb-search.sb-search-open .sb-icon-search,
+.no-js .sb-search .sb-icon-search {
+	color: #333;
+	z-index: 11;
+}
+
+.sb-search.sb-search-open .sb-search-submit,
+.no-js .sb-search .sb-search-submit {
+	z-index: 90;
+}
+
+.post0 h4 {
+	color: #d73962;
+}
+.post1 h4 {
+	color: #fd9d1a;
+	
+}
+.post2 h4 {
+	color: #41ab58;
+	
+}
+.post3 h4 {
+	color: #75E823;
+	
+}
+.post4 h4 {
+	color: #ED2C15;
+}
+
+.posts{ margin-bottom:50px; background:url(../images/divider.png) bottom center no-repeat; padding-bottom:50px;}
+.posts h3, .posts h4{ text-align:center; }
+.posts h3 a{color:#666;}
+.posts h5{ text-align:center; color:#bbb;}
+.headerStyles{ margin-top:20px; margin-bottom:50px; text-align:center;}
+.headerStyles h4{ color:#999;}
+.headerStyles h2{}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Devlinks</title>
+<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,700|Oswald:700|Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+<link href="css/app.css" rel="stylesheet">
+</head>
+<body ng-app="neo" ng-controller="Neobanker">
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="col-lg-9 col-md-8 col-sm-10">
+      <div class="navbar-header"> <a class="navbar-brand" href="#"><img src="images/logo.png" /></a> </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-2">
+      <div id="sb-search" class="sb-search">
+        <form>
+          <input class="sb-search-input" placeholder="Enter your search term..." type="search" value="" ng-model="searchbox" name="search" id="search">
+          <input class="sb-search-submit" type="submit" value="">
+          <span class="sb-icon-search"></span>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<section class="container">
+	<section class="headerStyles">
+    	<h4>TODAY</h4>
+  		<h2 id="date" align="center"></h2>
+  	</section>
+  <section ng-repeat="i in items | limitTo: 5 | filter:searchbox" class="posts post{{$index}}">
+    <h4>{{i.head}}</h4>
+    <h3><a href="{{i.url}}" class="titleStyle">{{i.title}}</a></h3>
+    <h5>{{i.desc}}</h5>
+  </section>
+ <!-- <form action="">
+    <label for="email">Get Neobanker by Email</label>
+    <br/>
+    <input type="text" name="email" id="email">
+    <br/>
+    <input type="submit" id="subscribe" value="Subscribe">
+  </form>-->
+</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script> 
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> 
+<script src="http://www.samworks.in/plugins/js/classie.js"></script> 
+<script src="js/script.js"></script> 
+
+<script>var d = new Date(); document.getElementById("date").innerHTML = d.toDateString(); new UISearch( document.getElementById( 'sb-search' ) );</script>
+</body>
+</html>
