@@ -8,46 +8,34 @@ function devlinks($scope){
 	};
 	$scope.items = [
 		{
-			head: 'Reducing Friction',
-			title: "Immobilized: Nearly half of US consumers couldn't go a day without their smartphone.",
-			url: 'http://www.google.com',
-			desc: 'Findings from Bank of America Trends in Consumer Mobility Report'
+			head: 'Javascript',
+			title: "Server-Side Device Detection With JavaScript",
+			url: 'http://www.smashingmagazine.com/2014/07/01/server-side-device-detection-with-javascript/',
+			desc: 'There are many strategies to choose from when developing a modern, device independent website nowadays. How should capabilities of the device or browser be determined? Should the presentation logic be server side or client side? Traditionally, mobile optimization had to happen server side.'
 		},
 		{
-			head: 'Being the Bank of Choice',
-			title: "Who are the best investment banks out there?",
-			url: 'http://www.google.com',
-			desc: 'If you want an incumbent bank that stands out, then it always has to be Goldman Sachs.'
+			head: 'Javascript',
+			title: "Modules, a Future Approach to JavaScript Libraries",
+			url: 'http://code.tutsplus.com/articles/modules-a-future-approach-to-javascript-libraries--cms-21800',
+			desc: 'A module is an encapsulated piece of functionality that does one thing only, and that one thing very well.'
 		},
 		{
-			head: 'Delivering Best Experiences',
-			title: "Personal Capital's Financial Management App Now Available on Android Wear",
-			url: 'http://www.google.com',
-			desc: 'Monitor your personal finances with easy-to-understand charts and graphs.'
+			head: 'Javascript',
+			title: "JavaScript Patterns Collection",
+			url: 'http://shichuan.github.io/javascript-patterns/',
+			desc: 'A JavaScript pattern and antipattern collection that covers function patterns, jQuery patterns, jQuery plugin patterns, design patterns, general patterns, literals and constructor patterns, object creation patterns, code reuse patterns, DOM and browser patterns'
 		},
 		{
-			head: 'Delighting People',
-			title: "Instant Prescreen: I do not think it means what you think it means.",
-			url: 'http://www.google.com',
-			desc: 'How instant prescreen works, how bankers can distinguish it from the more common batch prescreen solutions and utilize it effectively in digital banking.'
+			head: 'OOPS Javascript',
+			title: "The Definitive Guide to Object-Oriented JavaScript",
+			url: 'http://www.objectplayground.com/',
+			desc: 'Let’s Code: Test-Driven JavaScript and start watching today!'
 		},
 		{
-			head: 'Innovation Opportunities',
-			title: "Barriers to Entry In Banking Spell Opportunity. But Do We Seize It?",
-			url: 'http://www.google.com',
-			desc: '10 strategic issues banks should address to position themselves to take advantage of high barriers to entry.'
-		},
-		{
-			head: 'Delighting People',
-			title: "Instant Prescreen: I do not think it means what you think it means.",
-			url: 'http://www.google.com',
-			desc: 'How instant prescreen works, how bankers can distinguish it from the more common batch prescreen solutions and utilize it effectively in digital banking.'
-		},
-		{
-			head: 'Innovation Opportunities',
-			title: "Barriers to Entry In Banking Spell Opportunity. But Do We Seize It?",
-			url: 'http://www.google.com',
-			desc: '10 strategic issues banks should address to position themselves to take advantage of high barriers to entry.'
+			head: 'Programming',
+			title: "Understanding the Principles of Algorithm Design",
+			url: 'http://code.tutsplus.com/tutorials/understanding-the-principles-of-algorithm-design--net-26561',
+			desc: 'Algorithms are not a special type of operation, necessarily. They are conceptual, a set of steps that you take in code to reach a specific goal.'
 		}
 	];
 }
